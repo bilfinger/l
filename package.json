@@ -1,0 +1,33 @@
+{  "name"                       : "l"
+,  "version"                    : "0.0.1"
+,  "description"                : "l.now.18"
+,  "main"                       : "s.js"
+,  "engine"                     : { "node" : "*"
+                                  , "npm"  : "*"
+                                  }
+,  "repository"                 : { "type": "git"
+                                  , "url" : "https://github.com/bilfinger/l.git"
+                                  }
+,  "license"                    : "MIT"
+,  "dependencies"               : {}
+,  "bundleDependencies"         : []
+,  "scripts"                    : { "start"         : "node s.js"}
+,  "config"                     : { "tabs"          : []
+                                  , "zip"          : "deflate"
+                                  , "flatdata"      : "flat"
+                                  , "flatintabs"    : []
+                                  , "flatouttabs"   : []
+                                  , "cert"          : "uwr"
+                                  , "first"         : "default"
+                                  , "webport"       : 8123
+                                  , "is_app"        : false
+                                  , "is_log"        : true
+                                  , "is_debug"      : true
+                                  , "is_data"       : false
+                                  , "is_backup"     : false
+                                  , "backup_time"   : 60000
+                                  , "build"         : "./"
+                                  , "data"          : "./"
+                                  , "app"           : "./"
+                                  }
+}
